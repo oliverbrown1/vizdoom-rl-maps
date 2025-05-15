@@ -7,7 +7,20 @@ This repository holds different maps used for a project, teaching RL agents to s
 * Maze Difficult
 * Deadly Corridor
 
-Deadly Corridor is an existing ViZDoom scenario, but was modified for the project. Below is a description of each map.
+Deadly Corridor is an existing ViZDoom scenario, but was modified for the project. 
+
+### Details
+
+Each map has a green or red vest that appears at the end, with the main goal of reaching it as fast as possible, as a negative living reward is applied. The reward system is designed for each scenario such that it encourages the agent to explore better and reach the end goal safely. Specific reward details are mentioned for each map.
+
+Every scenario would have this basic reward system:
+
+* Living Reward : $-0.001$
+* Goal Reward: $+100$
+
+Below is a description of each map.
+
+### Scenarios
 
 #### Basic Scenario
 
